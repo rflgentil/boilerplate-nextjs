@@ -1,8 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Este é um [Next.js](https://nextjs.org/) boilerplate.
 
-## Getting Started
+## O que vem no projeto?
 
-First, run the development server:
+- [TypeScript](https://www.typescriptlang.org/)
+- [NextJS](https://nextjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Storybook](https://storybook.js.org/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky)
+
+## Começando
+
+Instalar as dependencias do projeto:
+
+```bash
+yarn
+```
+
+Para rodar o servidor de desenvolvimento:
 
 ```bash
 npm run dev
@@ -10,21 +28,17 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) em seu navegador.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Você pode comecar modificando `pages/index.js`.
 
-## Learn More
+## Comandos
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- `dev`: roda seu aplicativo em `localhost:3000`
+- `build`: cria uma versão para produção
+- `start`: inicia um servidor com código de produção
+- `lint`: executa o linter para todos componentes e páginas
+- `test`: executa o jest para testar todos componentes e páginas
+- `test:watch`: executa o jest com watch
+- `storybook`: executa storybook no `localhost:6006`
+- `build-storybook`: cira uma versão build para o storybook
